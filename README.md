@@ -10,8 +10,7 @@ o Returns a paginated list of products.
 o Accepts a query string parameter for the search term.
 o Implements a fuzzy search algorithm that can return relevant results, even if the
 search term has typos or is an approximate string. The implementation can eg. be
-done using edit distance with Damerau-Levenshtein distance. Don’t use a ready
-made fuzzy search library.
+done using edit distance with Damerau-Levenshtein distance.
 
 4. GET /products/:id - Get details for a specific product.
 
