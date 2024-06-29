@@ -3,15 +3,14 @@
 Demo application build on Spring boot 3.2.1. This application provides following api endpoints:
 
 1. POST /products - Add a new product.
-o Accepts a JSON payload with name, category, description, price, and imageUrl.
+  - Accepts a JSON payload with name, category, description, price, and imageUrl.
 2. GET /products - Retrieve all products.
-o Returns a paginated list of products.
+  - Returns a paginated list of products.
 3. GET /search - Search for products by name.
-o Accepts a query string parameter for the search term.
-o Implements a fuzzy search algorithm that can return relevant results, even if the
+  - Accepts a query string parameter for the search term.
+  - Implements a fuzzy search algorithm that can return relevant results, even if the
 search term has typos or is an approximate string. The implementation can eg. be
 done using edit distance with Damerau-Levenshtein distance.
-
 4. GET /products/:id - Get details for a specific product.
 
 # Prerequisites
