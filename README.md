@@ -32,4 +32,6 @@ We can also run and deploy the jar file using following commands
 2. `java -jar target/product-0.0.1-SNAPSHOT.jar`
 
 Once the application is up and running you can view the Swagger ui for application apis at http://localhost:8080
+
+
 ![alt text](https://github.com/meudaypratap/product-api/blob/main/image.png?raw=true)
