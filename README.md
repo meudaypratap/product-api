@@ -1,4 +1,4 @@
-# product-api
+# Product-api
 
 Demo application build on Spring boot 3.2.1. This application provides following api endpoints:
 
@@ -15,6 +15,9 @@ made fuzzy search library.
 
 4. GET /products/:id - Get details for a specific product.
 
+# Prerequisites
+1. Java 17
+2. Maven
 
 # Running the application locally
 
